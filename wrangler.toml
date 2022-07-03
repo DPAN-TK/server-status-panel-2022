@@ -1,9 +1,9 @@
-name = "server-status"
+name = "server-status-panel-2022"
 workers_dev = true
 account_id = ""
 type = "webpack"
 webpack_config = "node_modules/flareact/webpack"
-compatibility_date = "2021-07-23"
+compatibility_date = "2022-07-01"
 
 [triggers]
 crons = ["* * * * *"]
