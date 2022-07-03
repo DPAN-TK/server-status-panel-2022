@@ -1,6 +1,6 @@
-# 服务器运行状态监控
+# SSP2022 服务器运行状态监控面板
 
-显示您的监控网站的每日历史记录状态，并在您的网站状态发生变化时获取 Slack/Telegram/Discord 通知。使用 Cloudflare Workers、CRON 简单和 KV 存储。
+监控您的服务器运行状态，并在服务器状态发生改变时通过 Slack/Telegram/Discord 通知您。
 
 ## 准备工作
 
@@ -15,7 +15,7 @@
 
 ### 二、部署在Cloudflare上
 
-[![Deploy to Cloudflare Workers](https://camo.githubusercontent.com/1f3d0b4d44a2c3f12c78bd02bae907169430e04d728006db9f97a4befa64c886/68747470733a2f2f6465706c6f792e776f726b6572732e636c6f7564666c6172652e636f6d2f627574746f6e3f706169643d74727565)](https://deploy.workers.cloudflare.com/?url=https://github.com/fangaso/cf-workers-status-page)
+[![Deploy to Cloudflare Workers](https://camo.githubusercontent.com/1f3d0b4d44a2c3f12c78bd02bae907169430e04d728006db9f97a4befa64c886/68747470733a2f2f6465706c6f792e776f726b6572732e636c6f7564666c6172652e636f6d2f627574746f6e3f706169643d74727565)](https://deploy.workers.cloudflare.com/?url=https://github.com/fangaso/server-status-panel-2022)
 
 1. 单击按钮并按照说明进行操作
 2. 输入相关信息
