@@ -1,9 +1,9 @@
 {
-  "name": "server-status",
+  "name": "server-status-panel-2022",
   "version": "1.0.0",
-  "author": "Adam Janiš <adam.janis@gmail.com>",
+  "author": "Fangaso <admin@fangaso.com>",
   "license": "MIT",
-  "main": "index.js",
+  "master": "index.js",
   "private": true,
   "scripts": {
     "dev": "flareact dev",
