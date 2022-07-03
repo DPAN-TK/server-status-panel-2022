@@ -1,0 +1,79 @@
+settings:
+  title: '服务器运行状态监控'
+  url: 'https://status-page.eidam.dev'
+  logo: logo-192x192.png
+  daysInHistogram: 90
+  collectResponseTimes: true
+
+  allmonitorsOperational: '所有系统正常运行'
+  notAllmonitorsOperational: '所有系统未正常运行'
+  monitorLabelOperational: '正常运行'
+  monitorLabelNotOperational: '未正常运行'
+  monitorLabelNoData: '无数据'
+  dayInHistogramNoData: '无数据'
+  dayInHistogramOperational: '全部正常'
+  dayInHistogramNotOperational: '故障'
+
+monitors:    
+  - id: www-hostloc-com
+    name: www.hostloc.com
+    description: '全球主机交流论坛'
+    url: 'https://www.hostloc.com'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+    
+  - id: www-tencent-com
+    name: www.tencent.com
+    description: '腾讯'
+    url: 'https://www.tencent.com'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+    
+  - id: www-cloudflare-com
+    name: www.cloudflare.com
+    description: 'Cloudflare'
+    url: 'https://www.cloudflare.com'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+     
+  - id: www-google-com
+    name: www.google.com
+    description: 'Google'
+    url: 'https://www.google.com'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+    
+  - id: www-cloudcone-com
+    name: www.cloudcone.com
+    description: 'Cloudcone'
+    url: 'https://www.cloudcone.com'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+
+  - id: www-virmach-com
+    name: www.virmach.com
+    description: 'Virmach'
+    url: 'https://www.virmach.com'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
+    
+  - id: dpan-tk
+    name: dpan-tk
+    description: '帝盘'
+    url: 'https://dpan.tk'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true
